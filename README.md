@@ -185,3 +185,18 @@ class _PasswordTextFormFieldState extends State<PasswordTextFormField> {
   }  
   }  
 }
+
+ 
+ 
+ 
+ ## sample:
+ >PasswordTextFormField(
+                        validator: _otpValidator,
+                        enabled: enabled,
+                        maxLength: 6,
+                        keyboardType: TextInputType.phone,
+                        textDirection: TextDirection.ltr,
+                        controller: _codeController,
+                        labelText: VERIFY_CODE,
+                        hintText: VERIFY_HINT,
+                      )
